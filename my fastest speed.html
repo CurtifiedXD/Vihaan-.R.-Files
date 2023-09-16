@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>L</title>
+        <style>
+            .slideshow
+            {
+                width: 100%;
+                height: auto;
+                position: absolute;
+                opacity: 0.5;
+                animation-name: fade;
+                animation-duration: 6s;
+                animation-timing-function: ease-in-out;
+                animation-iteration-count: infinite;
+            }
+        .slideshowS img:first-child
+            {
+                opacity: 1.8;
+            }
+            @keyframes fade
+            {
+                0%{opacity: 0;}
+                20%{opacity: 1;}
+                80%{opacity: 1;}
+                100%{opacity: 0;}
+            }
+        </style>
+    </head>
+    <body>
+        <div class="slideshow">
+            <img src="donut.jpeg" width="600" height="300">
+            <img src="Giyuu.jpeg">
+            <img src="Gyomei.jpeg" width="600" height="300">
+            <img src="Muichiro.jpeg">
+            <img src="angry bird.jpeg" width="600" height="500">
+            <img src="download.jpg" height="400">
+        </div>
+    </body>
+</html>
